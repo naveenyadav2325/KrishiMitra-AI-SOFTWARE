@@ -7,7 +7,7 @@ const connectDB = async () => {
         console.log("DB Connected");
     })
 
-    await mongoose.connect(`${process.env.MONGODB_URI}/KrishiMitra-AI`)
+    await mongoose.connect(`${process.env.MONGODB_URI}/AGRO-IOT`)
 
 }
  
